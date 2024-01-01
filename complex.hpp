@@ -85,6 +85,6 @@ public:
     }
     
     friend std::ostream& operator<< (std::ostream& stream, const complex& c) {
-        return stream << "real: " << c.real << " imag: " << c.imag;
+        return stream << "real: " << c.real << " imag: " << c.imag << "; ";
     }
 };
