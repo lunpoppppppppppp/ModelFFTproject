@@ -1,5 +1,7 @@
 #include <iostream>
 #include "complex.hpp"
+#include <cmath>
+#include <cstdint>
 
 
 class fft_class {
